@@ -37,4 +37,6 @@ Pipeline stages :
 9. Pass these cropped images to OCR .
 10. store the result of OCR in file.
 
+There is one algorithm called "CLAHE" which can be applied on the image before performing OCR to get the improved results. But according to my knowledge it gives better results for handwritten data. But this can be single addition made to the pipeline.
+
 This is perfect ML/DL pipeline to extract the results from the passbook input.
